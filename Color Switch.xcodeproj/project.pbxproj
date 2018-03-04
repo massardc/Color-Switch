@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BF978F06204C9B8D0033BBE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF978F05204C9B8D0033BBE2 /* AppDelegate.swift */; };
-		BF978F08204C9B8D0033BBE2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF978F07204C9B8D0033BBE2 /* GameScene.sks */; };
-		BF978F0A204C9B8D0033BBE2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF978F09204C9B8D0033BBE2 /* Actions.sks */; };
 		BF978F0C204C9B8D0033BBE2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF978F0B204C9B8D0033BBE2 /* GameScene.swift */; };
 		BF978F0E204C9B8D0033BBE2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF978F0D204C9B8D0033BBE2 /* GameViewController.swift */; };
 		BF978F11204C9B8D0033BBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF978F0F204C9B8D0033BBE2 /* Main.storyboard */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		BF978F02204C9B8D0033BBE2 /* Color Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF978F05204C9B8D0033BBE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF978F07204C9B8D0033BBE2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BF978F09204C9B8D0033BBE2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		BF978F0B204C9B8D0033BBE2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BF978F0D204C9B8D0033BBE2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BF978F10204C9B8D0033BBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,17 +56,47 @@
 		BF978F04204C9B8D0033BBE2 /* Color Switch */ = {
 			isa = PBXGroup;
 			children = (
-				BF978F05204C9B8D0033BBE2 /* AppDelegate.swift */,
-				BF978F07204C9B8D0033BBE2 /* GameScene.sks */,
-				BF978F09204C9B8D0033BBE2 /* Actions.sks */,
+				BF978F17204C9B8E0033BBE2 /* Info.plist */,
+				BF978F21204C9E6D0033BBE2 /* Assets */,
+				BF978F20204C9E4F0033BBE2 /* Template */,
+				BF978F1F204C9E380033BBE2 /* Controller */,
+				BF978F1D204C9E320033BBE2 /* Scenes */,
+			);
+			path = "Color Switch";
+			sourceTree = "<group>";
+		};
+		BF978F1D204C9E320033BBE2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
 				BF978F0B204C9B8D0033BBE2 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BF978F1F204C9E380033BBE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				BF978F0D204C9B8D0033BBE2 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF978F20204C9E4F0033BBE2 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				BF978F05204C9B8D0033BBE2 /* AppDelegate.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		BF978F21204C9E6D0033BBE2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				BF978F0F204C9B8D0033BBE2 /* Main.storyboard */,
 				BF978F12204C9B8E0033BBE2 /* Assets.xcassets */,
 				BF978F14204C9B8E0033BBE2 /* LaunchScreen.storyboard */,
-				BF978F17204C9B8E0033BBE2 /* Info.plist */,
 			);
-			path = "Color Switch";
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF978F11204C9B8D0033BBE2 /* Main.storyboard in Resources */,
-				BF978F08204C9B8D0033BBE2 /* GameScene.sks in Resources */,
 				BF978F13204C9B8E0033BBE2 /* Assets.xcassets in Resources */,
 				BF978F16204C9B8E0033BBE2 /* LaunchScreen.storyboard in Resources */,
-				BF978F0A204C9B8D0033BBE2 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V836JU6J3D;
 				INFOPLIST_FILE = "Color Switch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V836JU6J3D;
 				INFOPLIST_FILE = "Color Switch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

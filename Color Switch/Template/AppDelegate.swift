@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Color Switch
 //
-//  Created by School on 04/03/2018.
+//  Created by ClementM on 04/03/2018.
 //  Copyright © 2018 ClementM. All rights reserved.
 //
 
