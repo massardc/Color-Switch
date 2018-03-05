@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF48A831204DCAA4005BE50D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48A830204DCAA4005BE50D /* Settings.swift */; };
 		BF48A833204DEC69005BE50D /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48A832204DEC69005BE50D /* MenuScene.swift */; };
+		BF48A835204DF478005BE50D /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF48A834204DF478005BE50D /* bling.wav */; };
 		BF978F06204C9B8D0033BBE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF978F05204C9B8D0033BBE2 /* AppDelegate.swift */; };
 		BF978F0C204C9B8D0033BBE2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF978F0B204C9B8D0033BBE2 /* GameScene.swift */; };
 		BF978F0E204C9B8D0033BBE2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF978F0D204C9B8D0033BBE2 /* GameViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		BF48A830204DCAA4005BE50D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		BF48A832204DEC69005BE50D /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		BF48A834204DF478005BE50D /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bling.wav; sourceTree = "<group>"; };
 		BF978F02204C9B8D0033BBE2 /* Color Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF978F05204C9B8D0033BBE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF978F0B204C9B8D0033BBE2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		BF978F04204C9B8D0033BBE2 /* Color Switch */ = {
 			isa = PBXGroup;
 			children = (
+				BF48A834204DF478005BE50D /* bling.wav */,
 				BF978F17204C9B8E0033BBE2 /* Info.plist */,
 				BF978F21204C9E6D0033BBE2 /* Assets */,
 				BF978F20204C9E4F0033BBE2 /* Template */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF978F11204C9B8D0033BBE2 /* Main.storyboard in Resources */,
+				BF48A835204DF478005BE50D /* bling.wav in Resources */,
 				BF978F13204C9B8E0033BBE2 /* Assets.xcassets in Resources */,
 				BF978F16204C9B8E0033BBE2 /* LaunchScreen.storyboard in Resources */,
 			);
