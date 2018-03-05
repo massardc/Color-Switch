@@ -26,8 +26,8 @@ class MenuScene: SKScene {
     
     func addLabels() {
         let playLabel = SKLabelNode(text: "Tap to play")
-        let highScoreLabel = SKLabelNode(text: "Highscore: ")
-        let recentScoreLabel = SKLabelNode(text: "Recent score: ")
+        let highScoreLabel = SKLabelNode(text: "Highscore: \(UserDefaults.standard.integer(forKey: "Highscore"))")
+        let recentScoreLabel = SKLabelNode(text: "Recent score: \(UserDefaults.standard.integer(forKey: "RecentScore"))")
         
         playLabel.fontName = "AvenirNext-Bold"
         playLabel.fontSize = 50
